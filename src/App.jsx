@@ -4,6 +4,7 @@ import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
 import Technologies from "./components/Technologies";
+import Education from "./components/Education";
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
       <div className="container mx-auto px-8">
         <Navbar />
         <Hero />
+        <Education />
         <Technologies />
         <Experience />
         <Projects />

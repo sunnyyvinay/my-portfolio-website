@@ -1,8 +1,7 @@
 import React from 'react';
-import { CONTACT } from '../constants';
 import { motion } from 'framer-motion';
 
-const Contact = () => {
+const Education = () => {
   return (
     <div className='border-b border-neutral-900 pb-20'>
         <motion.h2 
@@ -10,7 +9,7 @@ const Contact = () => {
             initial={{opacity: 0, y: -100}}
             transition={{duration: 0.5}}
             className='my-10 text-center text-4xl'>
-                Contact
+                Education
         </motion.h2>
 
         <div className='text-center tracking-tighter'>
@@ -19,7 +18,7 @@ const Contact = () => {
                 initial={{opacity: 0, x: -100}}
                 transition={{duration: 1}}
                 className='my-4'>
-                    {CONTACT.address}
+                    University of California, Los Angeles
             </motion.p>
 
             <motion.p 
@@ -27,13 +26,11 @@ const Contact = () => {
                 initial={{opacity: 0, x: 100}}
                 transition={{duration: 1}}
                 className='my-4'>
-                    {CONTACT.phoneNo}
+                    B.S. in Computer Science (2023 - 2026)
             </motion.p>
-
-            <a href='#' className='border-b'>{CONTACT.email}</a>
         </div>
     </div>
   )
 }
 
-export default Contact
+export default Education
