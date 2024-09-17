@@ -26,7 +26,7 @@ const Hero = () => {
                     </motion.h1>
 
                     <motion.span 
-                        className='bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-3xl tracking-tight text-transparent'
+                        className='bg-gradient-to-r from-orange-200 via-amber-600 to-yellow-300 bg-clip-text text-3xl tracking-tight text-transparent'
                         variants={container(0.5)}
                         initial="hidden"
                         animate="visible">
