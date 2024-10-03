@@ -74,7 +74,7 @@ const App = () => {
           <Research />
         </div>
 
-        <Contact />
+        
       </div>
     </div>
   )
