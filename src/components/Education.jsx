@@ -27,7 +27,7 @@ const Education = () => {
                 initial={{opacity: 0, x: 100}}
                 transition={{duration: 1}}
                 className='my-4 text-2xl'>
-                    B.S. in Computer Science (2023 - 2026)
+                    B.S. in Computer Science (2023 - 2027)
             </motion.p>
 
             <motion.div 

@@ -1,33 +1,33 @@
-import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
+import project1 from "../assets/projects/studywithbuddies.png";
+import project2 from "../assets/projects/underwaterrobot.jpg";
+import project3 from "../assets/projects/oversurge.png";
+import project4 from "../assets/projects/colorsurge.png";
+import project5 from "../assets/projects/virtualassistant.jpeg";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
-
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const HERO_CONTENT = 
+`Hey! I'm a sophomore with a senior standing at UCLA studying computer science. I have experience in research, full stack development, and artificial intelligence. In my free time, I love hiking, volunteering, and music. My goal is to learn new technologies, acquire new skills, and explore the infinite applications of software.`;
 
 export const EXPERIENCES = [
   {
     year: "Summer 2024",
     role: "AI Development Intern",
     company: "rtZen.ai",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
+    description: `Built and deployed classification/regression models with lots of data.`,
+    technologies: ["Python", "Flask", "MLOps", "scikit-learn"],
   },
   {
     year: "Summer 2023",
     role: "Software Engineering Intern",
     company: "ClaimZippy",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
+    description: `Worked on frontend/backend tasks with React and Node.js.`,
+    technologies: ["React", "Node.js", "MongoDB", "ExpressJS", "PostgreSQL"],
   },
   {
     year: "Summer 2022",
     role: "STEM Intern",
     company: "NASA",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
+    description: `Worked on AI/NLP tasks for weather virtual assistant.`,
+    technologies: ["Python", "Pytorch"],
   },
 ];
 
@@ -36,46 +36,60 @@ export const PROJECTS = [
     title: "Study With Buddies -->",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "Used MERN stack to develop a web app for UCLA students to join, create, and find study groups/buddies.",
+    technologies: ["MongoDB", "ExpressJS", "React", "Node.js"],
+    link: "https://github.com/sunnyyvinay/study-with-buddies"
   },
   {
     title: "Underwater Robot -->",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "Designed CAD and put together electronics with C++ code for an underwater robot with a camera and 6 controllable motors.",
+    technologies: ["C++"],
+    link: "http://github.com/sunnyyvinay/underwater-robot"
   },
   {
     title: "OverSurge -->",
     image: project3,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+      "Designed, developed, and maintained a video game companion Android app in Java with 100+ installs and 5-star ratings.",
+    technologies: ["Java", "Android"],
+    link: "https://github.com/sunnyyvinay/OverSurge"
   },
   {
     title: "ColorSurge -->",
     image: project4,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "Designed, developed, and maintained a photo color editing Android app in Java with 100+ installs and 5-star ratings.",
+    technologies: ["Java", "Android"],
+    link: "https://github.com/sunnyyvinay/ColorSurge"
+  },
+  {
+    title: "AI Chatbot and Assistant -->",
+    image: project5,
+    description:
+      "Developed virtual assistant and chatbot in Python using SQL, various APIs, and natural language processing..",
+    technologies: ["Python", "SQL"],
+    link: "http://github.com/sunnyyvinay/MultiRoomChat-andChatBot"
   },
 ];
 
 export const RESEARCH = [
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
+    year: "Jan 2024 - Present",
+    role: "Machine Learning Researcher",
+    company: "UCLA Cannesson Lab",
+    description: `Working on classification models using surgery patient waveform data. Published abstract/poster and working on paper.`,
+    technologies: ["Python", "Jupyter", "Pytorch"],
+    link: ""
   },
   {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
+    year: "Jun 2021 - May 2022",
+    role: "Independent Researcher and Author",
+    company: "Differential Privacy -->",
+    description: `Conducted independent research on accuracy/privacy tradeoff with differential privacy. Published paper to the Journal of Emerging Investigators.`,
     technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
+    link: "https://emerginginvestigators.org/articles/22-130"
   },
 ];
 

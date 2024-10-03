@@ -39,10 +39,10 @@ const App = () => {
 
         <nav className='mb-20 flex items-center justify-between py-6'>
           <div className="flex shrink-0 items-center justify-evenly">
-            <button className="pr-10 text-orange-300" onClick={() => scrollToSection(educationRef)}>Education</button>
-            <button className="pr-10 text-orange-300" onClick={() => scrollToSection(experienceRef)}>Experience</button>
-            <button className="pr-10 text-orange-300" onClick={() => scrollToSection(projectsRef)}>Projects</button>
-            <button className="pr-10 text-orange-300" onClick={() => scrollToSection(researchRef)}>Research</button>
+            <button className="pr-10 text-white" onClick={() => scrollToSection(educationRef)}>Education</button>
+            <button className="pr-10 text-white" onClick={() => scrollToSection(experienceRef)}>Experience</button>
+            <button className="pr-10 text-white" onClick={() => scrollToSection(projectsRef)}>Projects</button>
+            <button className="pr-10 text-white" onClick={() => scrollToSection(researchRef)}>Research</button>
           </div>
           <div className='m-8 flex items-center justify-center gap-4 text-2xl'>
               <button onClick={() => handleClick("linkedin")}>
