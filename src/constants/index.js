@@ -94,7 +94,6 @@ export const RESEARCH = [
 ];
 
 export const CONTACT = {
-  address: "San Jose, CA",
   phoneNo: "+1 (408) 656-7734",
   email: "sunnyvinay@ucla.edu",
 };
