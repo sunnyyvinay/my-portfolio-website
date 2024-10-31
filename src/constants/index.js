@@ -12,21 +12,21 @@ export const EXPERIENCES = [
     year: "Summer 2024",
     role: "AI Development Intern",
     company: "rtZen.ai",
-    description: `Built and deployed classification/regression models with lots of data.`,
+    description: `Worked on ML classification/regression models and MLOps pipeline with a Flask server.`,
     technologies: ["Python", "Flask", "MLOps", "scikit-learn"],
   },
   {
     year: "Summer 2023",
     role: "Software Engineering Intern",
     company: "ClaimZippy",
-    description: `Worked on frontend/backend tasks with React and Node.js.`,
+    description: `Worked on crucial frontend/backend features (MERN stack) for a software startup to automate the medical insurance claim process.`,
     technologies: ["React", "Node.js", "MongoDB", "ExpressJS", "PostgreSQL"],
   },
   {
     year: "Summer 2022",
     role: "STEM Intern",
     company: "NASA",
-    description: `Worked on AI/NLP tasks for weather virtual assistant.`,
+    description: `Worked on an AI-based science translator for the dissemination of hydrological data to the public. Implemented different NLP and deep learning models for research abstract and poster.`,
     technologies: ["Python", "Pytorch"],
   },
 ];
@@ -76,12 +76,20 @@ export const PROJECTS = [
 
 export const RESEARCH = [
   {
+    year: "Oct 2024 - Present",
+    role: "Deep Learning Researcher",
+    company: "UCLA Ozcan Lab -->",
+    description: `Working on all-optical machine learning using diffractive deep neural networks (D2NN).`,
+    technologies: ["Python", "PyTorch"],
+    link: "https://research.seas.ucla.edu/ozcan/"
+  },
+  {
     year: "Jan 2024 - Present",
     role: "Machine Learning Researcher",
-    company: "UCLA Cannesson Lab",
+    company: "UCLA Cannesson Lab -->",
     description: `Working on classification models using surgery patient waveform data. Published abstract/poster and working on paper.`,
-    technologies: ["Python", "Jupyter", "Pytorch"],
-    link: ""
+    technologies: ["Python", "Jupyter", "scikit-learn"],
+    link: "https://www.uclahealth.org/departments/anes/research/cannesson-laboratory"
   },
   {
     year: "Jun 2021 - May 2022",
