@@ -3,6 +3,8 @@ import project2 from "../assets/projects/underwaterrobot.jpg";
 import project3 from "../assets/projects/oversurge.png";
 import project4 from "../assets/projects/colorsurge.png";
 import project5 from "../assets/projects/virtualassistant.jpeg";
+import project6 from "../assets/projects/fittogether.png";
+import pinpal_logo from "../assets/projects/pinpal-logo.png";
 
 export const HERO_CONTENT = 
 `Hey! I'm a sophomore with a senior standing at UCLA studying computer science. I have experience in research, full stack development, and artificial intelligence. In my free time, I love hiking, volunteering, and music. My goal is to learn new technologies, acquire new skills, and explore the infinite applications of software.`;
@@ -33,6 +35,14 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
+    title: "PinPal",
+    image: pinpal_logo,
+    description:
+      "Developing map-based social media app (currently in iOS beta testing).",
+    technologies: ["PostgreSQL", "ExpressJS", "React", "Node.js", "AWS"],
+    link: "https://sunnyvinay.com"
+  },
+  {
     title: "Study With Buddies -->",
     image: project1,
     description:
@@ -46,13 +56,21 @@ export const PROJECTS = [
     description:
       "Designed CAD and put together electronics with C++ code for an underwater robot with a camera and 6 controllable motors.",
     technologies: ["C++"],
-    link: "http://github.com/sunnyyvinay/underwater-robot"
+    link: "https://github.com/sunnyyvinay/underwater-robot"
+  },
+  {
+    title: "FitTogether",
+    image: project6,
+    description:
+      "Used Javascript and Python to develop a fitness mobile app to create workouts and find partners.",
+    technologies: ["React", "Flask", "Firebase"],
+    link: "https://sunnyvinay.com"
   },
   {
     title: "OverSurge -->",
     image: project3,
     description:
-      "Designed, developed, and maintained a video game companion Android app in Java with 100+ installs and 5-star ratings.",
+      "Designed, developed, and maintained a video game companion Android app in Java with 500+ installs and 5-star ratings.",
     technologies: ["Java", "Android"],
     link: "https://github.com/sunnyyvinay/OverSurge"
   },
@@ -70,7 +88,7 @@ export const PROJECTS = [
     description:
       "Developed virtual assistant and chatbot in Python using SQL, various APIs, and natural language processing..",
     technologies: ["Python", "SQL"],
-    link: "http://github.com/sunnyyvinay/MultiRoomChat-andChatBot"
+    link: "https://github.com/sunnyyvinay/MultiRoomChat-andChatBot"
   },
 ];
 
@@ -79,7 +97,7 @@ export const RESEARCH = [
     year: "Oct 2024 - Present",
     role: "Deep Learning Researcher",
     company: "UCLA Ozcan Lab -->",
-    description: `Working on all-optical machine learning using diffractive deep neural networks (D2NN).`,
+    description: `Working on optimizing all-optical machine learning using diffractive deep neural networks (D2NN).`,
     technologies: ["Python", "PyTorch"],
     link: "https://research.seas.ucla.edu/ozcan/"
   },
