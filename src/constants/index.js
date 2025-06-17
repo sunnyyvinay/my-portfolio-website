@@ -5,21 +5,29 @@ import project4 from "../assets/projects/colorsurge.png";
 import project5 from "../assets/projects/virtualassistant.jpeg";
 import project6 from "../assets/projects/fittogether.png";
 import pinpal_logo from "../assets/projects/pinpal-logo.png";
+import lahacks25 from "../assets/projects/lahacks25.png";
 
 export const HERO_CONTENT = 
-`Hey! I'm a sophomore with a senior standing at UCLA studying computer science. I have experience in research, full stack development, and artificial intelligence. In my free time, I love hiking, volunteering, and music. My goal is to learn new technologies, acquire new skills, and explore the infinite applications of software.`;
+`Hey! I'm a junior at UCLA studying computer science. I have experience in research, full stack development, and artificial intelligence. In my free time, I love hiking, volunteering, and music. My goal is to learn new technologies, acquire new skills, and explore the infinite applications of software.`;
 
 export const EXPERIENCES = [
   {
+    year: "Summer 2025",
+    role: "Software Development Intern",
+    company: "Amazon",
+    description: `AWS`,
+    technologies: [],
+  },
+  {
     year: "Summer 2024",
-    role: "AI Development Intern",
+    role: "Software Development Intern",
     company: "rtZen.ai",
     description: `Worked on ML classification/regression models and MLOps pipeline with a Flask server.`,
     technologies: ["Python", "Flask", "MLOps", "scikit-learn"],
   },
   {
     year: "Summer 2023",
-    role: "Software Engineering Intern",
+    role: "Software Development Intern",
     company: "ClaimZippy",
     description: `Worked on crucial frontend/backend features (MERN stack) for a software startup to automate the medical insurance claim process.`,
     technologies: ["React", "Node.js", "MongoDB", "ExpressJS", "PostgreSQL"],
@@ -38,9 +46,17 @@ export const PROJECTS = [
     title: "PinPal",
     image: pinpal_logo,
     description:
-      "Developing map-based social media app (currently in iOS beta testing).",
+      "Developing map-based social media app (50+ users in beta testing).",
     technologies: ["PostgreSQL", "ExpressJS", "React", "Node.js", "AWS"],
     link: "https://sunnyvinay.com"
+  },
+  {
+    title: "Sir Syncs A Lot | LA Hacks 2025 -->",
+    image: lahacks25,
+    description:
+      "Unified AI agent on the phone that can complete tasks on your computer.",
+    technologies: ["Python", "FastAPI", "React"],
+    link: "https://github.com/JonOuyang/lahacks"
   },
   {
     title: "Study With Buddies -->",
@@ -94,20 +110,20 @@ export const PROJECTS = [
 
 export const RESEARCH = [
   {
-    year: "Oct 2024 - Present",
-    role: "Deep Learning Researcher",
-    company: "UCLA Ozcan Lab -->",
-    description: `Working on optimizing all-optical machine learning using diffractive deep neural networks (D2NN).`,
-    technologies: ["Python", "PyTorch"],
-    link: "https://research.seas.ucla.edu/ozcan/"
+    year: "Jan 2024 - Present",
+    role: "Undergraduate Researcher",
+    company: "UCLA Cannesson Lab -->",
+    description: `Working on  models using surgery patient waveform data. Co-authored 2 abstracts.`,
+    technologies: ["Python", "scikit-learn"],
+    link: "https://www.uclahealth.org/departments/anes/research/cannesson-laboratory"
   },
   {
-    year: "Jan 2024 - Present",
-    role: "Machine Learning Researcher",
-    company: "UCLA Cannesson Lab -->",
-    description: `Working on classification models using surgery patient waveform data. Published abstract/poster and working on paper.`,
-    technologies: ["Python", "Jupyter", "scikit-learn"],
-    link: "https://www.uclahealth.org/departments/anes/research/cannesson-laboratory"
+    year: "Oct 2024 - Jun 2025",
+    role: "Undergraduate Researcher",
+    company: "UCLA Ozcan Lab -->",
+    description: `Worked on optimizing all-optical machine learning using diffractive deep neural networks (D2NN).`,
+    technologies: ["Python", "PyTorch"],
+    link: "https://research.seas.ucla.edu/ozcan/"
   },
   {
     year: "Jun 2021 - May 2022",
