@@ -14,8 +14,8 @@ export const EXPERIENCES = [
   {
     year: "Summer 2025",
     role: "Software Development Intern",
-    company: "Amazon",
-    description: `AWS`,
+    company: "Amazon (AWS)",
+    description: `API Gateway Control Plane`,
     technologies: [],
   },
   {
@@ -113,7 +113,7 @@ export const RESEARCH = [
     year: "Jan 2024 - Present",
     role: "Undergraduate Researcher",
     company: "UCLA Cannesson Lab -->",
-    description: `Working on  models using surgery patient waveform data. Co-authored 2 abstracts.`,
+    description: `Working on ML classification models using surgery patient waveform data. Published 3 abstracts with a journal article in progress.`,
     technologies: ["Python", "scikit-learn"],
     link: "https://www.uclahealth.org/departments/anes/research/cannesson-laboratory"
   },
@@ -130,7 +130,7 @@ export const RESEARCH = [
     role: "Independent Researcher and Author",
     company: "Differential Privacy -->",
     description: `Conducted independent research on accuracy/privacy tradeoff with differential privacy. Published paper to the Journal of Emerging Investigators.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
+    technologies: ["Python"],
     link: "https://emerginginvestigators.org/articles/22-130"
   },
 ];
