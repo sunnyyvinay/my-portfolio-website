@@ -43,7 +43,7 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "PinPal",
+    title: "PinPal -->",
     image: pinpal_logo,
     description:
       "Developed map-based social media app (100+ users in beta testing).",
