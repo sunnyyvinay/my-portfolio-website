@@ -1,8 +1,9 @@
 import React from 'react';
 import { motion } from "framer-motion";
+import { RiJavaLine } from "react-icons/ri";            // Java
 import { RiReactjsLine } from 'react-icons/ri';         // React
-import { SiMongodb } from "react-icons/si";             // Mongo
-import { BiLogoPostgresql } from "react-icons/bi";      // Postgres
+import { FaAws } from "react-icons/fa";                 // AWS
+import { TbFileTypeSql } from "react-icons/tb";         // Postgres
 import { FaNodeJs } from "react-icons/fa";              // Node
 import { SiPytorch } from "react-icons/si";             // PyTorch
 import { SiCplusplus } from "react-icons/si";           // C++
@@ -41,6 +42,14 @@ const Skills = () => {
                     initial="initial"
                     animate="animate"
                     className='rounded-2xl border-4 border-entural-800 p-4'>
+                        <RiJavaLine className='text-7xl' style={{ color: '#ED8B00' }}/>
+                </motion.div>
+
+                <motion.div 
+                    variants={iconVariants(3)}
+                    initial="initial"
+                    animate="animate"
+                    className='rounded-2xl border-4 border-entural-800 p-4'>
                         <RiReactjsLine className='text-7xl text-cyan-400'/>
                 </motion.div>
 
@@ -49,7 +58,7 @@ const Skills = () => {
                     initial="initial"
                     animate="animate"
                     className='rounded-2xl border-4 border-entural-800 p-4'>
-                        <SiMongodb className='text-7xl text-green-400'/> 
+                        <FaAws className='text-7xl text-orange-400'/> 
                 </motion.div>
 
                 <motion.div 
@@ -57,7 +66,7 @@ const Skills = () => {
                     initial="initial"
                     animate="animate"
                     className='rounded-2xl border-4 border-entural-800 p-4'>
-                        <BiLogoPostgresql className='text-7xl text-sky-600'/>
+                        <TbFileTypeSql className='text-7xl text-sky-600'/>
                 </motion.div>
 
                 <motion.div 

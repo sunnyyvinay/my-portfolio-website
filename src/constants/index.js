@@ -16,7 +16,7 @@ export const EXPERIENCES = [
     role: "Software Development Intern",
     company: "Amazon (AWS)",
     description: `API Gateway Control Plane`,
-    technologies: [],
+    technologies: ["Java", "AWS"],
   },
   {
     year: "Summer 2024",
@@ -37,7 +37,7 @@ export const EXPERIENCES = [
     role: "STEM Intern",
     company: "NASA",
     description: `Worked on an AI-based science translator for the dissemination of hydrological data to the public. Implemented different NLP and deep learning models for research abstract and poster.`,
-    technologies: ["Python", "Pytorch"],
+    technologies: ["Python", "PyTorch"],
   },
 ];
 
@@ -46,9 +46,9 @@ export const PROJECTS = [
     title: "PinPal",
     image: pinpal_logo,
     description:
-      "Developing map-based social media app (50+ users in beta testing).",
+      "Developed map-based social media app (100+ users in beta testing).",
     technologies: ["PostgreSQL", "ExpressJS", "React", "Node.js", "AWS"],
-    link: "https://sunnyvinay.com"
+    link: "https://github.com/sunnyyvinay/pinpal-frontend"
   },
   {
     title: "Sir Syncs A Lot | LA Hacks 2025 -->",
@@ -110,10 +110,10 @@ export const PROJECTS = [
 
 export const RESEARCH = [
   {
-    year: "Jan 2024 - Present",
+    year: "Jan 2024 - Jun 2025",
     role: "Undergraduate Researcher",
     company: "UCLA Cannesson Lab -->",
-    description: `Working on ML classification models using surgery patient waveform data. Published 3 abstracts with a journal article in progress.`,
+    description: `Worked on ML classification models using surgery patient waveform data. Published 3 abstracts with a journal article in progress.`,
     technologies: ["Python", "scikit-learn"],
     link: "https://www.uclahealth.org/departments/anes/research/cannesson-laboratory"
   },
@@ -123,7 +123,7 @@ export const RESEARCH = [
     company: "UCLA Ozcan Lab -->",
     description: `Worked on optimizing all-optical machine learning using diffractive deep neural networks (D2NN).`,
     technologies: ["Python", "PyTorch"],
-    link: "https://research.seas.ucla.edu/ozcan/"
+    link: "https://drive.google.com/file/d/1tA7xIqxgwx2Gfy_8UzoZE0s9vIfTjhhJ/view?usp=sharing"
   },
   {
     year: "Jun 2021 - May 2022",
