@@ -12,6 +12,12 @@ export const HERO_CONTENT =
 
 export const EXPERIENCES = [
   {
+    year: "Summer 2026",
+    role: "Backend Software Engineering Intern",
+    company: "Palantir",
+    technologies: ["Java"],
+  },
+  {
     year: "Summer 2025",
     role: "Software Development Intern",
     company: "Amazon (AWS)",
