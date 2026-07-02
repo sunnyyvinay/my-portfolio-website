@@ -8,7 +8,7 @@ import pinpal_logo from "../assets/projects/pinpal-logo.png";
 import lahacks25 from "../assets/projects/lahacks25.png";
 
 export const HERO_CONTENT = 
-`Hey! I'm a junior at UCLA studying computer science. I have experience in research, full stack development, and artificial intelligence. In my free time, I love hiking, volunteering, and music. My goal is to learn new technologies, acquire new skills, and explore the infinite applications of software.`;
+`Hey! I'm studying computer science at UCLA with lots of research and internship experience in frontend, backend, and AI/ML development. I love hiking, volunteering, and music. My goal is to learn new technologies, acquire new skills, and explore the infinite applications of software.`;
 
 export const EXPERIENCES = [
   {
