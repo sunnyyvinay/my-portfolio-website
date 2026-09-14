@@ -8,14 +8,21 @@ import pinpal_logo from "../assets/projects/pinpal-logo.png";
 import lahacks25 from "../assets/projects/lahacks25.png";
 
 export const HERO_CONTENT = 
-`Hey! I'm studying computer science at UCLA with lots of research and internship experience in frontend, backend, and AI/ML development. I love hiking, volunteering, and music. My goal is to learn new technologies, acquire new skills, and explore the infinite applications of software.`;
+`Hey! I'm Sunny, a CS student at UCLA. I love building software that people depend on, most recently at Palantir, AWS, and a company I co-founded.`;
 
 export const EXPERIENCES = [
   {
     year: "Summer 2026",
-    role: "Backend Software Engineering Intern",
+    role: "Software Engineering Intern",
     company: "Palantir",
     technologies: ["Java"],
+  },
+  {
+    year: "2025-2026",
+    role: "Co-Founder and Founding Engineer",
+    company: "AutoInvent",
+    description: `AI-powered patent managemnent platform - www.autoinvent.com`,
+    technologies: ["React", "Express", "GCP"],
   },
   {
     year: "Summer 2025",

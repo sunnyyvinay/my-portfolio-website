@@ -30,7 +30,7 @@ const Hero = () => {
                         variants={container(0.5)}
                         initial="hidden"
                         animate="visible">
-                            Full Stack + AI/ML Developer
+                            Software Engineer
                     </motion.span>
 
                     <motion.p 
@@ -49,7 +49,7 @@ const Hero = () => {
                         initial={{x: 100, opacity: 0}} 
                         animate={{x: 0, opacity: 1}}
                         transition={{duration: 1, delay: 1.2}}
-                        width={400} height={400}
+                        width={450} height={450}
                         src={profilePic} alt="Profile Picture"/>
                 </div>
             </div>
